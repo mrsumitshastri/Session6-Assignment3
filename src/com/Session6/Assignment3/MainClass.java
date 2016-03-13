@@ -1,8 +1,14 @@
 package com.Session6.Assignment3;
 
 public class MainClass {
+	/*
+	 * Calculate an area of different shapes .Create an interface Shape and define all the methods that different types of Shape objects 
+	 * will implement.For simplicity purpose, you can keep only two methods draw() to draw the shape and getArea() that will return the area of the shape
+	 * 
+	 */
 
 	public static void main(String[] args) {
+		
 		Rectangle rect = new Rectangle(10,5);
 		rect.draw();
 		System.out.println("Area of Rectangle "+rect.getArea());
